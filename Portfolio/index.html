@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abinaya Velmurugan | Portfolio</title>
+  <link rel="stylesheet" href="styels.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Abinaya Velmurugan</h1>
+      <p>Software Engineering Student | Passionate Innovator & Problem Solver</p>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Hello! I am Abinaya Velmurugan, a software engineering student passionate about solving real-world problems using technology. I love to innovate and create impactful projects across various domains.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="filter">
+        <button class="filter-btn" data-category="all">All</button>
+        <button class="filter-btn" data-category="web">Web Development</button>
+        <button class="filter-btn" data-category="ai">AI/ML</button>
+        <button class="filter-btn" data-category="design">UI/UX Design</button>
+      </div>
+      <div class="project-grid">
+        <!-- Dynamic project cards will be loaded here -->
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>Java</li>
+        <li>SQL</li>
+        <li>React</li>
+        <li>HTML, CSS</li>
+        <li>Figma, Adobe Illustrator</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:abinayav862@gmail.com">abinayav862@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/Abinayavelmurugan" target="_blank">GitHub Profile</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Abinaya Velmurugan | <a href="mailto:abinayav862@gmail.com">Contact Me</a></p>
+  </footer>
+
+  <!-- Modal for project details -->
+  <div id="project-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <div class="modal-body">
+        <!-- Dynamic project details will be loaded here -->
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
